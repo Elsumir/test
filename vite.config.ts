@@ -10,17 +10,18 @@ export default defineConfig({
 			registerType: 'autoUpdate',
 			includeAssets: ['favicon.png', 'robots.txt', 'apple-touch-icon.png'],
 			manifest: {
-				name: 'Svelte PWA App',
-				short_name: 'SveltePWA',
-				description: 'SvelteKit progressive web app!',
+				name: 'Avtoservice',
+				short_name: 'Avtoservice',
+				description: 'Avtoservice',
 				start_url: '/',
 				scope: '/',
 				display: 'standalone',
 				background_color: '#ffffff',
+				lang: 'ru',
 				theme_color: '#ffffff',
 				icons: [
 					{
-						src: 'user.png',
+						src: '/user.png',
 						sizes: '192x192',
 						type: 'image/png'
 					}
